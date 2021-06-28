@@ -28,11 +28,11 @@
 
 ## import FAQ
 
-1- import is doesn't make the file larger
-2- its no need to remember the library's name
-3- its bad to use (*) in import
-4- "*" only makes the classes in this package visible, not any of the subpackages.
-5- there is no specific order to import
+1. import is doesn't make the file larger
+2. its no need to remember the library's name
+3. its bad to use (*) in import
+4. "*" only makes the classes in this package visible, not any of the subpackages.
+5. there is no specific order to import
 
 - If you forgot to write import statements, or don't remember which package a class is it NetBeans  will automatically create it.
 
