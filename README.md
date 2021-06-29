@@ -18,5 +18,5 @@
 |  :---        |  ---: |
 | Read: 01-Java Basics      | [Link](./Read:01-Java-Basics/read01.md)       |
 | Read:02-Arrays,Loops,Imports   | [Link](./Read:02-Arrays,Loops,Imports/read02.md)        |
-| Read :03-Maps, primitives,File   | [Link](./Read:03-Maps,primitives,File/Read:03-Maps,primitives.md)        |
-| Read:04-OOP   | [Link](./Read:04-OOP/Read:04-OOP.md)        |
+| Read:03-Maps,primitives,File   | [Link](./Read:03-Maps-primitives/read03.md)        |
+| Read:04-OOP   | [Link](./Read:04-OOP/read04.md)        |
