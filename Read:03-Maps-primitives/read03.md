@@ -4,32 +4,25 @@
 
 - Java has a two-fold type system :
 
-1. consisting of primitives such as int, boolean
+1. primitives such as int, boolean
 2. reference types such as Integer, Boolean.
 
-- The wrapper classes are immutable.
 - there are two types of process :
 
-`` 
-Integer j = 1;          // autoboxing
-int i = new Integer(1); // unboxing
-``
+1. autoboxing
+2. unboxing
 
-1. autoboxing that converts a primitive type to a reference one
-2. unboxing that converts reference one type to a primitive .
+** autoboxing that converts a primitive type to a reference one .
+
+** unboxing that converts reference one type to a primitive .
 
 ## Pros and Cons
 
-- The decision what object is to be used is based on :
-
-1. what application performance we try to achieve
-2. how much available memory we have
-3. the amount of available memory director
-4. what default values we should handle.
+- The decision what object is to be used is based on what is the applicatoin performance we want and how much memory we have and what default value we handle .
 
 ## Single Item Memory Footprint
 
-the primitive type variables have the following impact on the memory:
+- The primitive type variables have the following impact on the memory :
 
 1. boolean – 1 bit
 2. byte – 8 bits
@@ -37,10 +30,8 @@ the primitive type variables have the following impact on the memory:
 4. int, float – 32 bits
 5. long, double – 64 bits
 
-- Variables of these types live in the stack and hence are accessed fast.
-- The reference types are objects, they live on the heap and are relatively slow to access.
-- To get an object's internal structure, we may use the Java Object Layout tool
-- It turns out that a single instance of a reference type on this JVM occupies 128 bits except for Long and Double which occupy 192 bits
+- This type of Variables are living in stack and hence are accessed fast.
+- objects are living on the heap and are relatively slow to access.
 
 ## Memory Footprint for Arrays
 
@@ -68,11 +59,6 @@ the primitive type variables have the following impact on the memory:
 
 - For the wrapper classes, the default value is null.
 
-## Usage
-
-- Java language specification doesn't allow usage of primitive types in the parametrized types (generics),  in the Java collections or the Reflection API.
-- When our application needs collections with a big number of elements, we should consider using arrays with as more “economical” type as possible.
-
 # Exceptions in Java
 
 ## Exceptions
@@ -85,10 +71,10 @@ the primitive type variables have the following impact on the memory:
 
  **Processing :**
 
-- When an error occurs within a method, the method creates an object and hands it.
-- After a method throws an exception, the runtime system attempts to find something to handle it ( The list of methods is known as the call stack).
-- The runtime system searches the call stack for a method that contains a block of code that can handle the exception(This block of code is called an exception handler)
-- The exception handler chosen is said to catch the exception. If the runtime system exhaustively searches all the methods on the call stack without finding an appropriate exception handler.
+1. create an object and hands the error .
+2. the system try to find something to handle the error.
+3. the system call the method that handles the error .
+4. the method chosen to catch the error and return it.
 
 ## The Catch or Specify Requirement
 
@@ -96,9 +82,9 @@ the primitive type variables have the following impact on the memory:
 
 **The Three Kinds of Exceptions :**
 
-1. checked exception : These are exceptional conditions that a well-written application should anticipate and recover from, like When the user miss writing the name file in import.
-2. exception is the error : These exceptional are external to the application, and that the application usually cannot anticipate or recover from.
-3. the runtime exception: These are exceptional conditions that are internal to the application, and that the application usually cannot anticipate or recover from (its usually from Bugs).
+1. checked exception : like When the user miss writing the name file in import.
+2. exception is the error : this exception is from out the code.
+3. the runtime exception:  this exception is from internal the code, usually cannot anticipate(its usually from Bugs).
 
 ## Catching and Handling Exceptions
 
