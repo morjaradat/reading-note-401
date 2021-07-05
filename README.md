@@ -22,3 +22,4 @@
 | Read:04-OOP   | [Link](./Read:04-OOP/read04.md)        |
 | Read:05-Linked-Lists   | [Link](./Read:05-Linked-Lists/read05.md)        |
 | Read:06-Inheritance-and-Interfaces   | [Link](./Read:06-Inheritance-and-Interfaces/read06.md)        |
+| Read:08-OO-Design   | [Link](./Read:08-OO-Design/Read08.md)        |
