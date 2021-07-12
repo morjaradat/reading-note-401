@@ -26,3 +26,4 @@
 | Read:09-WRRC-and-Java   | [Link](./Read:09-WRRC-and-Java/read09.md)   |
 | Read:10-Stacks-&-Queues   | [Link](./Read:10-Stacks-&-Queues/read10.md)   |
 | Read:11-Spring   | [Link](./Read:11-Spring/read11.md)   |
+| Read:12-Spring-RESTful-Routing-&-Static-Files   | [Link](./Read:12-Spring-RESTful-Routing-&-Static-Files/read12.md)   |
