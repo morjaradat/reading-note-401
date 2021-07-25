@@ -30,3 +30,5 @@
 | Read:13-Related-Resources-and-Integration-Testing   | [Link](./Read:13-Related-Resources-and-Integration-Testing/read13.md)   |
 | Read:Trees   | [Link](./Read:Trees/read14.md)   |
 | Read:16-Spring-Authentication   | [Link](./Read:16-Spring-Authentication/read16.md)   |
+| Read:17-Spring-Authorization   | [Link](./Read:17-Spring-Authorization/read17.md)   |
+
