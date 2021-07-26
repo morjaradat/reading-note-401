@@ -34,3 +34,11 @@ public class Employee {
     Set<Project> projects = new HashSet<>();
 }
 ```
+
+## Security: a humorous overview
+
+- you need to :
+
+1. don't tell the everyone your password
+2. make your password more complicated not easy like your name and your birthday
+3. don't use same password for everything
