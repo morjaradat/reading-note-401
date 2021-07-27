@@ -32,4 +32,5 @@
 | Read:16-Spring-Authentication   | [Link](./Read:16-Spring-Authentication/read16.md)   |
 | Read:17-Spring-Authorization   | [Link](./Read:17-Spring-Authorization/read17.md)   |
 | Read:18-Web-App-Security   | [Link](./Read:18-Web-App-Security/read18.md)   |
+| Read:19-Spring-and-Sockets   | [Link](./Read:19-Spring-and-Sockets/read19.md)   |
 
