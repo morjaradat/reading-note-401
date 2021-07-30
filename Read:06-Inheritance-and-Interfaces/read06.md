@@ -1,19 +1,9 @@
 # Lesson: Object-Oriented Programming Concepts
 
-## What Is an Object?
+## Java OO
 
--the object is software bundle of relate key nad value ,and they used for modeling the read-world object that mean we manually used object to describe the read-world .
+- Classes can inherit widely used state and behavior from other classes thanks to object-oriented programming. A direct superclass is permitted for any class, and each superclass can have subclasses. At the start of the declaration, the name of the class to inherit from is specified. Methods that create the object's interface with the outside world are called interfaces. An interface allows a class to be more explicit about the behavior it promises to deliver, and it serves as a contract between the class and the rest of the world. Package a namespace that organizes a collection of related classes and interfaces, similar to how a folder organizes files. API a library that comprises a collection of packages that reflect the most typical activities associated with general-purpose programming. Character string status and behavior are stored in the String object. Create, remove, examine, compare, or edit a file on the filesystem using the File object. The socket object is used to create and use network sockets. Control buttons and checkboxes, as well as anything else connected to graphical user interfaces, are examples of GUI items.
 
-## What Is a Class?
+## Java Inheritance & Interfaces
 
-- the class is like a blue print that we can use to create objects .
-
-# Lesson: Interfaces and Inheritance
-
-## Interfaces
-
-- its like the contact we write in the editor
-
-## Inheritance
-
-- this describe the way you can derive one class from another  like super class and subclass
+- Interfaces are contracts that specify how software will communicate with one another. Only constants, method signatures, default methods, static methods, and nested types are included in Java's interface. APIs are widely used in commercial software. Inheritance lasses can be derived from other classes, allowing them to inherit their fields and methods. A subclass is a class that derives from another class and inherits all of its parent's public and protected members. It can keep the inherited members, replace them, conceal them, or add new members to the mix. The class from which the subclass is derived is known as the superclass. The subclass can utilize the public or protected methods that the superclass has for accessing its private fields. Object class defined in the java.lang package, specifies and implements behavior that is common to all classes. The most generic of all classes is Object, which is at the top of the heirarchy. The behavior of the classes towards the bottom is more specific. Among the objects permitted by inheritance and implementations, casting objects demonstrates the usage of an object of one type in lieu of an object of another type.
