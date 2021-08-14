@@ -37,3 +37,4 @@
 | Read:27-Intents-Activities-and-SharedPreferences   | [Link](./Read:27-Intents-Activities-and-SharedPreferences/read27.md)   |
 | Read:28-RecyclerView   | [Link](./Read:28-RecyclerView/read28.md)   |
 | Read:29-Room   | [Link](./Read:29-Room/read29.md)   |
+| Read:30-HashTable  | [Link](./Read:30-HashTable/read30.md)   |
