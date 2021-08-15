@@ -39,3 +39,4 @@
 | Read:29-Room   | [Link](./Read:29-Room/read29.md)   |
 | Read:30-HashTable  | [Link](./Read:30-HashTable/read30.md)   |
 | Read:31-Espresso  | [Link](./Read:31-Espresso/read31.md)   |
+| Read:32-Serverless-and-Amplify  | [Link](./Read:32-Serverless-and-Amplify/read32.md)   |
