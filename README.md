@@ -41,3 +41,4 @@
 | Read:31-Espresso  | [Link](./Read:31-Espresso/read31.md)   |
 | Read:32-Serverless-and-Amplify  | [Link](./Read:32-Serverless-and-Amplify/read32.md)   |
 | Read:33-GraphQL-@connection  | [Link](./Read:33-GraphQL-@connection/read33.md)   |
+| Read:34-Monetization  | [Link](./Read:34-Monetization/read34.md)   |
