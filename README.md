@@ -43,3 +43,4 @@
 | Read:33-GraphQL-@connection  | [Link](./Read:33-GraphQL-@connection/read33.md)   |
 | Read:34-Monetization  | [Link](./Read:34-Monetization/read34.md)   |
 | Read:Graphs  | [Link](./Read:Graphs/read35.md)   |
+| Read:36-Cognito  | [Link](./Read:36-Cognito/read36.md)   |
