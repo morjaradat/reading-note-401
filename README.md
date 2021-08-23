@@ -45,3 +45,4 @@
 | Read:Graphs  | [Link](./Read:Graphs/read35.md)   |
 | Read:36-Cognito  | [Link](./Read:36-Cognito/read36.md)   |
 | Read:37-S3  | [Link](./Read:37-S3/read37.md)   |
+| Read:38-Notifications  | [Link](./Read:38-Notifications/read38.md)   |
