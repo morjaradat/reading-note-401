@@ -48,3 +48,5 @@
 | Read:38-Notifications  | [Link](./Read:38-Notifications/read38.md)   |
 | Read:39-Kinesis  | [Link](./Read:39-Kinesis/read39.md)   |
 | Read:41-Intent-Filters  | [Link](./Read:41-Intent-Filters/read41.md)   |
+| Read:42-Location  | [Link](./Read:42-Location/read42.md)   |
+| Readings:Ethics  | [Link](./Readings:Ethics/read42b.md)   |
