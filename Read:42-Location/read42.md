@@ -60,3 +60,42 @@ dependencies {
 * App targets Android 10 or lower :
 
   * When a feature in your app requests background location access, users see a system dialog. This dialog includes an option to navigate to your app's location permission options on a settings page.
+
+***Create location services client***
+
+* In your activity's onCreate() method:
+
+```Create location services client
+private FusedLocationProviderClient fusedLocationClient;
+
+// ..
+
+@Override
+protected void onCreate(Bundle savedInstanceState) {
+    // ...
+
+    fusedLocationClient = LocationServices.getFusedLocationProviderClient(this);
+}
+```
+
+***Get the last known location***
+
+```last known location
+fusedLocationClient.getLastLocation()
+        .addOnSuccessListener(this, new OnSuccessListener<Location>() {
+            @Override
+            public void onSuccess(Location location) {
+                // Got last known location. In some rare situations this can be null.
+                if (location != null) {
+                    // Logic to handle location object
+                }
+            }
+        });
+```
+
+***Choose the best location estimate***
+
+* The FusedLocationProviderClient provides several methods to retrieve device location information. Choose from one of the following, depending on your app's use case:
+
+1. getLastLocation() gets a location estimate more quickly and minimizes battery usage that can be attributed to your app.
+2. getCurrentLocation() gets a fresher, more accurate location more consistently.
