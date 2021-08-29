@@ -17,7 +17,7 @@
 * Do you agree or disagree with these articles?
   * No ,I Don't agree with these articles because I don't know the truth .
 * What stuck out to you specifically from each article?
-  * we should be ue our knowledge not to military things but for the sake of good.
+  * we should be use our knowledge not to military things but for the sake of good.
 
 # Ethics in Technology
 
@@ -43,6 +43,6 @@
   * AI algorithms and datasets can reflect, reinforce, or reduce unfair biases.  We recognize that distinguishing fair from unfair biases is not always simple, and differs across cultures and societies. We will seek to avoid unjust impacts on people, particularly those related to sensitive characteristics such as race, ethnicity, gender, nationality, income, sexual orientation, ability, and political or religious belief.
 
 * Do you agree or disagree with these articles?
-  * No ,I Don't  agree with these articles because Its depend on hte developer himself and how he build the Algorithm .
+  * No ,I Don't  agree with these articles because Its depend on the developer himself and how he build the Algorithm .
 * What stuck out to you specifically from each article?
   * we should build the Algorithm to avoid to unfair biases and make the algorithm for everyone.
